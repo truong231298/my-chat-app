@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  font-family: "Rubik", sans-serif;
+}
+.mess{
+  width: 60%;
+  padding: 5px;
+  margin: 0 5px;
+  background-color: hsl(276, 100%, 81%);
+  border-radius: 1rem;
+  color: hsl(276, 55%, 52%);
+}
+.mess-l{
+  width: 70%;
+  padding: 5px;
+  margin-left: auto;
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  text-align: justify;
+}
+.price{
+  width: 70%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  color: wheat;
+}
+.price input{
+  width: 2rem;
+  background-color: hsl(293, 100%, 63%);
+}
